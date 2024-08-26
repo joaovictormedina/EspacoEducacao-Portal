@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-image: url('./img/fundo.png'); /* Imagem de fundo para o header */
+    background-size: cover;
+    background-position: center;
+    height: 200px; /* Ajuste a altura conforme necessário */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Adiciona espaço entre a logo e os botões */
+    position: relative;
+    padding: 0 20px; /* Adiciona espaçamento horizontal */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 300px; /* Ajuste o tamanho do logo conforme necessário */
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+}
+
+.contact-button {
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    text-decoration: none; /* Remove o sublinhado do link */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Fonte em negrito */
+    margin-right: 15px; /* Espaçamento entre o botão e o campo de busca */
+}
+
+.contact-button:hover {
+    background-color: #45a049; /* Cor de fundo ao passar o mouse */
+}
+
+.search-container {
+    position: relative;
+    margin-right: 15px; /* Espaçamento entre o campo de busca e os ícones sociais */
+}
+
+.search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-input::placeholder {
+    color: #999;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+}
+
+.social-icon {
+    width: 35px; /* Ajuste o tamanho dos ícones conforme necessário */
+    margin-left: 10px; /* Espaçamento entre os ícones sociais */
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
